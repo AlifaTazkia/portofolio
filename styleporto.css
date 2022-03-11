@@ -1,0 +1,296 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*style dimulai*/
+
+.container {
+	box-shadow: 0px 15px 15px black;
+	width: 699px;
+	
+	margin: auto;
+	background-color: white;
+	font-family : arial;
+}
+
+.logo img{
+	
+	width: 100px;
+	height: 100px;
+	float: left;
+	
+}
+nav ul li  {
+
+	padding: 5px;
+	display: inline-block;
+	float: right;
+	padding-top : 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: navy;
+
+}
+ nav ul li a:hover {
+	background-color: yellow;
+	font-size: 18px;
+}
+
+.hero{
+	clear: both;
+	float: left;
+	background-size: cover;
+	background-image: url(alifa.png);
+	width: 700px;
+	height: 500px;
+	margin-left: 0px;
+	margin-top: 100px;
+	
+}
+
+
+.bgcoral {
+	padding-top: 200px;
+	background-image: url(hal1.jpg);	
+	width: 260px;
+	height: 400px;
+}
+
+h3 {
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.profile {
+	background-image: url(fotoprofile.png);
+	width: 150px;
+	height: 180px;
+	background-size: cover;
+	float: left;
+	margin-top: 40px;
+	margin-right: 30px;
+	margin-left: 20px;
+}.halamandua {
+	background-image: url(bgpolos.jpg);
+	width: 679px;
+	height: 360px;
+	line-height: 20px;
+	font-family: lucida sans ;
+	margin-top: 230px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.halamandua h3 {
+padding-left: 335px;
+padding-top: 40px;
+font-weight: bold;
+font-size: 30px;
+font-family: freestyle script;
+}
+.halamandua h5 {
+	padding-left: 345px;
+	font-family: tw cen mt;
+	font-size: 13px;
+}
+.halamantiga {
+	width: 699px;
+}
+.herodua {
+	background-image: url(city.jpg);
+	width: 699px;
+	height: 200px;
+}
+.kotak {
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	background-image: url(bgpolos.jpg);
+	margin-right: 250px;
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-left: 50px;
+	width: 250px;
+	height: 280px;
+}
+
+.kotakdua img{
+    width: 80px;
+    height: 80px;
+    padding-left:10px;
+    margin-top: 10px;;
+}
+
+.kotakdua {
+	
+	background-color: white;
+	margin-top: 5px;
+	margin-left: 20px;
+	width: 200px;
+	height: 200px;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	text-align: justify;
+}
+.halamantiga p {
+	clear: both;
+	margin-left: 50px;
+	padding-top: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ae801d;
+}
+.kotaktiga {
+	float: left;
+	width: 500px;
+	height: 550px;
+	margin-top: 80px;
+	background-image: url(skill.png);
+}
+.kotaktiga ul  {
+	text-decoration: none;
+	text-shadow: 2px 2px 2px yellow;
+	padding-top: 50px;
+	padding-left: 350px;
+	font-size: 30px;
+	font-weight: bold;
+}
+h4	{
+	clear: both;
+	text-shadow: 2px 2px 2px yellow;
+	padding-top: 100px;
+	padding-left: 250px;
+	font-weight: bold;
+	font-size: 40px;
+}
+footer {
+	background-color: #ae801d;
+	height: 19px;
+	width: 699px;
+	margin-top: 168px;
+	color: white;
+	padding-top: 10px; 
+	text-align: center;
+	font-size: 12px;
+}
+
+.satu {
+	background-color: white;
+	width: 699px;
+	height: 330px;
+	color: black;
+	
+}
+.satu img {
+	border : 2px solid black;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: 30px;
+	float: left;
+	width: 150px;
+	height: 180px;
+}
+.satu h4 {
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	padding-left: 100px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+.satu h5 {
+	float: left;
+	box-shadow: 2px 2px 10px yellow;
+	border : 1px solid black;
+	width: 270px;
+	height: 80px;
+	margin-top: 10px;
+	padding-left: 40px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	margin-left: 110px;
+	font-family: tw cen mt condensed;
+}
+
+.saya p {
+	font-family: candara;
+	margin-top: 20px;
+	text-align: center;
+}
+
+h2 {
+	text-shadow: 3px 3px 1px yellow;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-family: freestyle script;
+	font-weight: bold;
+}
+.project h2{
+    font-family: freestyle script;
+    text-align: center;
+    margin-top:50px;
+}
+.project{
+    margin-top:50px;
+    font-family: freestyle script;
+    
+}
+.image img{
+    width: 300px;
+    height: 160px;
+    margin-left:30px;
+    margin-top: 30px;
+}
+
