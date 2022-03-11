@@ -85,7 +85,7 @@ nav ul li a{
 	clear: both;
 	float: left;
 	background-size: cover;
-	background-image: url(alifa.png);
+	background-image: url(img/alifa.png);
 	width: 700px;
 	height: 500px;
 	margin-left: 0px;
@@ -96,7 +96,7 @@ nav ul li a{
 
 .bgcoral {
 	padding-top: 200px;
-	background-image: url(hal1.jpg);	
+	background-image: url(img/hal1.jpg);	
 	width: 260px;
 	height: 400px;
 }
@@ -107,7 +107,7 @@ h3 {
 	font-weight: bold;
 }
 .profile {
-	background-image: url(fotoprofile.png);
+	background-image: url(/img/fotoprofile.png);
 	width: 150px;
 	height: 180px;
 	background-size: cover;
@@ -116,7 +116,7 @@ h3 {
 	margin-right: 30px;
 	margin-left: 20px;
 }.halamandua {
-	background-image: url(bgpolos.jpg);
+	background-image: url(img/bgpolos.jpg);
 	width: 679px;
 	height: 360px;
 	line-height: 20px;
@@ -144,7 +144,7 @@ font-family: freestyle script;
 	width: 699px;
 }
 .herodua {
-	background-image: url(city.jpg);
+	background-image: url(img/city.jpg);
 	width: 699px;
 	height: 200px;
 }
@@ -152,7 +152,7 @@ font-family: freestyle script;
 	float: right;
 	font-size: 20px;
 	font-weight: bold;
-	background-image: url(bgpolos.jpg);
+	background-image: url(img/bgpolos.jpg);
 	margin-right: 250px;
 	margin-top: 40px;
 	padding-top: 40px;
